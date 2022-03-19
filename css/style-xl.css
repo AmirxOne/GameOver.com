@@ -1,0 +1,1156 @@
+@import "style-rebot.css";
+@import "style-font.css";
+/********** open project **********/
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+div.left-original {
+    width: 13.8%;
+    max-width: 13.8%;
+    min-width: 13.8%;
+    height: 100%;
+    border-right: 1px solid rgba(42, 43, 52, 0.78);
+    box-sizing: border-box;
+    background-color: #1f2027;
+    font-family: IRANYekanBold, sans-serif;
+    position: relative;
+    display: inline-block;
+    float: left;
+    transition: all 0.04s linear;
+}
+
+div.left-original > div.top {
+    width: 100%;
+    height: 64px;
+    display: flex; /*flex*/
+    justify-content: center;
+    align-items: center;
+}
+
+/************* nav bar ********/
+div.left-original > div.center-1 {
+    width: 100%;
+    height: 241px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+div.left-original > div.center-1 > span.span-center-1 {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 5px 0 11px;
+    box-sizing: border-box;
+    color: rgb(106, 117, 140);
+    font-size: 11px;
+    line-height: 41px;
+}
+
+div.left-original > div.center-1 > ul.ul-center-1 {
+    width: 100%;
+    height: 200px;
+}
+
+div.left-original > div.center-1 > ul.ul-center-1 > li.li-center-1 {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    font-size: 13px;
+    color: rgb(106, 117, 140);
+    padding: 0 8px 0 45px;
+    box-sizing: border-box;
+    line-height: 41px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+div.left-original > div.center-1 > ul.ul-center-1 > li.li-center-1 > span {
+
+}
+
+div.left-original > div.center-1 > ul.ul-center-1 > li.li-center-1:hover {
+    background-color: rgba(42, 43, 52, 0.78);
+    color: white;
+    transition: all 0.1s linear;
+}
+
+div.left-original > div.center-1 > ul.ul-center-1 > li.li-center-1 > i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+    left: 10px;
+    top: 9px;
+}
+
+div.left-original > div.center-1 > ul.ul-center-1 > li.li-center-1 > i > img {
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+
+div.left-original > div.center-1 > hr {
+    width: 90%;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+    background-color: rgba(42, 43, 52, 0.78);
+}
+
+
+div.left-original > div.center-2 {
+    width: 100%;
+    height: 363px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+div.left-original > div.center-2::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+div.left-original > div.center-2 > div.box-center-2 {
+    width: 100%;
+    height: 361px;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > span.span-center-2 {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 5px 0 11px;
+    box-sizing: border-box;
+    color: rgb(106, 117, 140);
+    font-size: 11px;
+    line-height: 41px;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.ul-center-2 {
+    width: 100%;
+    height: 78%;
+    overflow: hidden;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.active-more {
+    height: auto;
+    overflow-y: auto;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.ul-center-2 > li.li-center-2 {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    font-size: 13px;
+    color: rgb(106, 117, 140);
+    padding: 0 30px 0 45px;
+    box-sizing: border-box;
+    line-height: 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.1s linear;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.ul-center-2 > li.li-center-2:hover {
+    background-color: rgba(42, 43, 52, 0.78);
+    transition: all 0.1s linear;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.ul-center-2 > li.li-center-2 > i {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    left: 5px;
+    top: 5px;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.ul-center-2 > li.li-center-2 > i.connecting {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    left: 166px;
+    top: 5px;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.ul-center-2 > li.li-center-2 > i.connecting > img {
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+
+img.online {
+    position: relative;
+    top: -5px !important;
+    cursor: pointer;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > ul.ul-center-2 > li.li-center-2 > i > img {
+    position: relative;
+    top: 0;
+    cursor: pointer;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > div.more {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    font-size: 13px;
+    color: rgb(106, 117, 140);
+    padding: 0 30px 0 45px;
+    box-sizing: border-box;
+    line-height: 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.1s linear;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > div.more > i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #9b9ca1;
+    overflow: hidden;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > div.more > i > img {
+    position: relative;
+    top: -6px;
+    cursor: pointer;
+}
+
+div.left-original > div.center-2 > div.box-center-2 > div.more > i > img.active-rotate-icon {
+    transform: rotate(180deg);
+}
+
+/************* nav bar end ********/
+
+div.left-original > div.bottom {
+    width: 100%;
+    height: 53px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+div.left-original > div.bottom > hr {
+    width: 84%;
+    height: 1px;
+    border: none;
+    margin: 0 auto;
+    background-color: rgba(42, 43, 52, 0.78);
+}
+
+div.left-original > div.bottom > span.span-bottom {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 5px 0 17px;
+    box-sizing: border-box;
+    color: rgb(106, 117, 140);
+    font-size: 12px;
+    line-height: 41px;
+    margin-top: 10px;
+}
+
+div.left-original > div.click-change1 {
+    width: 20px;
+    height: 20px;
+    background: url("../images/left - Copy.png") #ba1141 center no-repeat;
+    transform: rotate(270deg);
+    border-radius: 50%;
+    position: absolute;
+    border: rgba(42, 43, 52, 0.78) 1px solid;
+    top: 74px;
+    right: -12px;
+    transition: all 0.2s linear;
+}
+
+div.left-original > div.click-change1:hover {
+    filter: drop-shadow(0 0 7px #ba1141);
+    transition: all 0.2s linear;
+}
+
+/********* nav change ****************/
+div.left-original-change {
+    width: 50px;
+    height: 100vh;
+    background-color: #1f2027;
+    position: relative;
+    border-right: 1px solid rgba(42, 43, 52, 0.78);
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    transition: all 0.06s linear;
+}
+
+div.left-original-change > div.top {
+    display: none;
+}
+
+div.left-original-change > div.center-1 {
+    width: 100%;
+    height: 100%;
+    padding: 211px 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+div.left-original-change > div.center-1 > span.span-center-1 {
+    display: block;
+    position: absolute;
+    top: 132px;
+    left: -10px;
+    width: 71px;
+    height: 40px;
+    color: #f8eaea;
+    font-size: 13px;
+    line-height: 41px;
+    transform: rotate(270deg);
+    font-family: IRANYekanBold, sans-serif;
+}
+
+div.left-original-change > div.center-1 > span.span-center-1::after {
+    content: " ";
+    width: 50px;
+    height: 30px;
+    transform: rotate(90deg);
+    background: url("../images/game-over-.png") no-repeat center;
+    position: absolute;
+    top: 5px;
+    left: 132px;
+}
+
+div.left-original-change > div.center-1 > ul.ul-center-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+div.left-original-change > div.center-1 > ul.ul-center-1 > li.li-center-1 {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+div.left-original-change > div.center-1 > ul.ul-center-1 > li.li-center-1:hover {
+    background-color: rgba(42, 43, 52, 0.78);
+    transition: all 0.1s linear;
+}
+
+div.left-original-change > div.center-1 > ul.ul-center-1 > li.li-center-1 > span {
+    display: none;
+}
+
+div.left-original-change > div.center-1 > ul.ul-center-1 > li.li-center-1 > i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+    left: 10px;
+    top: 11px;
+}
+
+div.left-original-change > div.center-1 > hr {
+    display: none;
+}
+
+div.left-original-change > div.center-2 {
+    display: none;
+}
+
+div.left-original-change > div.bottom {
+    display: none;
+}
+
+div.left-original-change > div.click-change2 {
+    width: 20px;
+    height: 20px;
+    background: url("../images/left - Copy.png") #ba1141 center no-repeat;
+    transform: rotate(90deg);
+    border-radius: 50%;
+    position: absolute;
+    border: rgba(42, 43, 52, 0.78) 1px solid;
+    top: 74px;
+    right: -12px;
+    transition: all 0.2s linear;
+}
+
+div.left-original-change > div.click-change2:hover {
+    filter: drop-shadow(0 0 7px #ba1141);
+    transition: all 0.2s linear;
+}
+
+/********* nav change end ****************/
+div.right-original {
+    width: 86.2%;
+    height: 721px;
+    float: left;
+    transition: width 0.1s;
+}
+
+div.right-original-mode-2 {
+    width: 96.74%;
+    transition: width 0s;
+}
+
+/********** top original ***********/
+div.top-original {
+    width: 100%;
+    height: 64px;
+    transform: translateY(0px);
+    background-color: #1f2027;
+    border-bottom: rgba(42, 43, 52, 0.78) 1px solid;
+    float: left;
+    padding: 12px;
+    box-sizing: border-box;
+    transition: width 0.06s;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/*
+div.top-original-mode-2{
+    width: 100%;
+    transition: width 0s;
+}
+
+ */
+div.top-original-left {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+div.top-original-left > ul.ul-top-original-left {
+    width: 100%;
+    height: 100%;
+    padding: 0 45px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.top-original-left > ul.ul-top-original-left > li.search-top-original-left {
+    width: 70%;
+    height: 100%;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+}
+
+li.search-top-original-left > input.search {
+    height: 100%;
+    width: 300px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    caret-color: #ba1141;
+    font-size: 10pt;
+    padding-left: 45px;
+    color: #f8eaea;
+    background-color: #1f2027;
+    border-radius: 25px;
+    font-family: IRANYekanBold, sans-serif;
+}
+
+li.search-top-original-left > input.search::placeholder {
+    color: #f8eaea;
+}
+
+li.search-top-original-left > label {
+    width: 20px;
+    height: 20px;
+    background: url("../images/loupe.png") no-repeat center;
+    position: absolute;
+    top: 9px;
+    cursor: text;
+    left: 15px;
+}
+
+div.top-original-right {
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: 80px;
+    float: left;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+}
+
+div.top-original-right > div.user {
+    height: 32px;
+    width: 8.6%;
+    float: right;
+    cursor: pointer;
+    background: url("../images/man (6).png") no-repeat center;
+}
+
+div.top-original-right > ul.side-user {
+    width: 91.4%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 40px 0 80px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+
+}
+
+div.top-original-right > ul.side-user > li {
+    width: 25px;
+    height: 25px;
+    list-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    margin-left: 25px;
+    text-align: center;
+}
+
+div.top-original-right > ul.side-user > li > img {
+    margin-top: 3px;
+}
+
+div.top-original-right > ul.side-user > li > div {
+    padding: 5px 10px;
+    height: 32px;
+    width: 100px;
+    background-color: rgba(42, 43, 52, 0.78);
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: text;
+    font-family: IRANYekanBold, sans-serif;
+    font-size: 12px;
+    filter: drop-shadow(0 0 2px #ba1141);
+    position: absolute;
+    top: 31px;
+    right: -37px;
+    color: white;
+    line-height: 23px;
+    display: none;
+    z-index: 10000;
+}
+
+/********** top original end ***********/
+/********** min **********/
+div.right-original > div.bottom-original {
+    width: 100%;
+    height: 657px;
+    float: left;
+    /*background-color: #ba1141;*/
+    transition: width 0.06s;
+    overflow-y: auto;
+}
+
+div.right-original > div.bottom-original::-webkit-scrollbar {
+    width: 6px;
+}
+
+div.right-original > div.bottom-original::-webkit-scrollbar-thumb {
+    background-color: rgba(42, 43, 52, 0.78);
+    border-radius: 25px;
+}
+
+/*
+div.bottom-original-mode-2{
+    width: 100%;
+    transition: width 0s;
+}
+ */
+
+div.right-original > div.bottom-original > div.mein-original {
+    width: 100%;
+    height: auto;
+    background-color: #1f2027;
+    box-sizing: border-box;
+    padding: 35px;
+}
+
+div.mein-original > div.all-box-slider {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider {
+    width: 1255px;
+    height: 600px;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > a.item {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: block;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > a.item > img {
+    width: 1255px;
+    height: 600px;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > a.item > div.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.cover > div.content {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 60px;
+    font-family: IRANYekanBold, sans-serif;
+}
+
+div.cover > div.content > span.live {
+    width: 50px;
+    height: 25px;
+    display: block;
+    margin-left: 7px;
+    border-radius: 25px;
+    background-color: #f2694f;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 26px;
+}
+
+div.content > span.name-game {
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+    display: block;
+    line-height: 100px;
+    font-size: 100px;
+    letter-spacing: -4px;
+    color: white;
+}
+
+div.content > span.text-game {
+    width: 450px;
+    height: 100px;
+    margin-top: 10px;
+    display: block;
+    line-height: 26px;
+    font-size: 20px;
+    color: white;
+}
+
+div.content > span.watch-game {
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    padding: 0 8px;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+div.content > span.watch-game > span.city {
+    width: 80px;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    line-height: 41px;
+    position: relative;
+}
+
+div.content > span.watch-game > span.city > img {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+}
+
+div.content > span.watch-game > span.btn-watch {
+    width: 100px;
+    height: 40px;
+    display: block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 43px;
+    background-color: #ba1141;
+    transition: all 0.2s linear;
+}
+
+div.content > span.watch-game > span.btn-watch:hover {
+    filter: drop-shadow(0 0 10px #ba1141);
+    transition: all 0.2s linear;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > div.navigator {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    left: 0;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > div.navigator > ul.ul-nav {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > div.navigator > ul.ul-nav > li.li-nav {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > div.navigator > ul.ul-nav > li.li-nav > span {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+div.mein-original > div.all-box-slider > div.mein-slider > div.navigator > ul.ul-nav > li.li-nav > span.active-nav-slide {
+    background-color: white;
+}
+
+div.all-box-follow {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+div.all-box-follow > div.mein-follow {
+    width: 1255px;
+    height: 200px;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #242732;
+}
+
+div.all-box-follow > div.mein-follow > div.follow-top {
+    width: 100%;
+    height: 50px;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+div.all-box-follow > div.mein-follow > div.follow-top > span {
+    color: white;
+    display: block;
+    width: auto;
+    height: 100%;
+    line-height: 52px;
+    font-family: IRANYekanBold, sans-serif;
+    font-size: 13px;
+}
+
+div.all-box-follow > div.mein-follow > div.box-follow {
+    width: 100%;
+    height: 150px;
+    padding: 0 45px;
+    box-sizing: border-box;
+}
+
+div.box-follow > ul.ul-follow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow {
+    list-style: none;
+    width: 8%;
+    height: 100%;
+    padding: 10px 17px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow > div.following {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow > div.following::before {
+    content: " ";
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #ba1141;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow:nth-child(10) > div.following::before {
+    display: none;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow > div.following::after {
+    content: " ";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    position: absolute;
+    top: 2px;
+    border: 3px solid #242732;
+    box-sizing: border-box;
+    right: 2px;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow:nth-child(10) > div.following::after {
+    display: none;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow > div.following > img {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    box-sizing: border-box;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow > div.text-following {
+    width: 59px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+
+}
+
+div.box-follow > ul.ul-follow > li.li-follow > div.text-following > span.name {
+    font-size: 12px;
+    display: block;
+    font-family: IRANYekanBold, sans-serif;
+    color: white;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+div.box-follow > ul.ul-follow > li.li-follow > div.text-following > span.time-online {
+    font-size: 9px;
+    display: block;
+    font-family: IRANYekanBold, sans-serif;
+    color: #7d808a;
+    margin-top: 5px;
+    line-height: 15px;
+}
+
+div.all-box-shop {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+div.all-box-shop > div.mein-shop {
+    width: 1255px;
+    height: 100%;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #242732;
+}
+
+div.all-box-shop > div.mein-shop > div.shop-top {
+    width: 100%;
+    height: 50px;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+div.all-box-shop > div.mein-shop > div.shop-top > span {
+    color: white;
+    display: block;
+    width: auto;
+    height: 100%;
+    line-height: 52px;
+    font-family: IRANYekanBold, sans-serif;
+    font-size: 13px;
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop {
+    width: 100%;
+    height: auto;
+    padding: 15px 45px;
+    box-sizing: border-box;
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop {
+    width: 216px;
+    height: 310px;
+    list-style: none;
+    margin: 0 7px 15px 8px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #1F2027;
+    transition: all 0.15s linear;
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop:last-child {
+    position: relative;
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop:last-child > a.a-all-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop:last-child > a.a-all-shop:hover > div.more-shop {
+    animation: rotate infinite 2s linear;
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop:last-child > a.a-all-shop > div.more-shop {
+    width: 100px;
+    height: 100px;
+    background: url("../images/badgesbg.png") no-repeat center;
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop:last-child > a.a-all-shop > img {
+    position: absolute;
+    top: 129px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop:hover {
+    transform: scale(1.02);
+    transition: all 0.15s linear;
+    box-shadow: rgba(186, 17, 65, 0.5) 0 20px 30px -10px;
+}
+
+div.all-box-shop > div.mein-shop > div.box-shop > ul.ul-shop > li.li-shop > a.a-all-shop {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+a.a-all-shop > div.box-img-shop {
+    width: 216px;
+    height: 216px;
+    position: relative;
+}
+
+a.a-all-shop > div.box-img-shop > div.cover {
+    width: 216px;
+    height: 216px;
+    position: absolute;
+    top: -216px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: top 0.3s linear;
+}
+
+a.a-all-shop > div.box-img-shop > div.cover-active {
+    top: 0;
+    transition: top 0.3s linear;
+}
+
+a.a-all-shop > div.box-img-shop > div.cover > span.span-cover {
+    width: 100%;
+    height: 35%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 140px;
+}
+
+span.span-cover > span.point-cover {
+    width: 80px;
+    height: 25px;
+    display: block;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+span.span-cover > span.point-cover > i {
+    width: 35%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+span.span-cover > span.point-cover > span {
+    width: 65%;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: IRANYekanBold, sans-serif;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+span.span-cover > span.genre {
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    font-family: IRANYekanBold, sans-serif;
+    color: white;
+    display: block;
+    margin: 3px 0 0 3px;
+}
+
+span.span-cover > span.years {
+    width: auto;
+    height: auto;
+    font-size: 11px;
+    font-family: IRANYekanBold, sans-serif;
+    color: white;
+    display: block;
+    margin-left: 6px;
+}
+
+a.a-all-shop > div.container-shop {
+    width: 100%;
+    height: 94px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+a.a-all-shop > div.container-shop > span.top {
+    width: auto;
+    height: 13px;
+    display: block;
+    color: #6B6B6B;
+    font-family: IRANYekanBold, sans-serif;
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+a.a-all-shop > div.container-shop > span.center {
+    width: auto;
+    height: auto;
+    display: block;
+    color: white;
+    font-family: IRANYekanBold, sans-serif;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+a.a-all-shop > div.container-shop > span.bottom {
+    width: auto;
+    height: auto;
+    display: block;
+    color: #7aea7a;
+    font-family: IRANYekanBold, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+span.red-color {
+    color: #ba1141 !important;
+}
+
+/********** min end **********/
+/********** project end **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
